@@ -81,7 +81,7 @@ export default [
     },
     {
         id: 9,
-        question : "What are the medical conditions that PHV drivers should inform TfL about?",
+        question : "What should you do if TfL or the vehicle manufacturer sends you a letter regarding your PHV?",
         options : [
             'Ignore the letter and continue to use the vehicle as normal. ',
             'Follow the instructions in the letter regarding any necessary repairs. ',
@@ -91,7 +91,7 @@ export default [
     },
     {
         id: 10,
-        question : "What should you do if TfL or the vehicle manufacturer sends you a letter regarding your PHV??",
+        question : "As a London PHV driver, can you pick up passengers on the street or at stations or airports without a booking?",
         options : [
             'Yes, as long as they approach you and ask for a ride. ',
             'No, unless they are willing to pay a higher fare. ',
