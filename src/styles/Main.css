@@ -1,34 +1,51 @@
-.container ol li{
+.container ol li {
     font-size: 1.4em;
+    padding: 10px 10px 10px 10px;
     color: #cecece;
-}
-
-.start{
+  }
+  
+  .start {
     display: flex;
     justify-content: center;
     padding-top: 2em;
-}
-
-.start .btn{
-    padding: .2em 1.7em;
+  }
+  
+  .start .btn {
+    padding: 0.2em 1.7em;
     border: none;
-    border-radius: .1em;
+    border-radius: 0.1em;
     font-size: 1.2em;
     color: #202020;
     text-decoration: none;
     background-color: #faff5a;
-}
-
-#form{
+  }
+  
+  #form {
     display: flex;
     justify-content: center;
     margin-top: 4em;
-}
-
-#form .userid{
-    padding: .7em 2em;
-    width: 50%;
+  }
+  
+  #form .userid {
+    padding: 0.7em 2em;
+    width: 100%;
+    max-width: 400px;
     border: none;
     border-radius: 3px;
     font-size: 1em;
-}
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container ol li {
+      font-size: 1.2em;
+    }
+  
+    .start {
+      padding-top: 1em;
+    }
+  
+    #form .userid {
+      width: 100%;
+    }
+  }
+  

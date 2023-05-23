@@ -9,5 +9,5 @@ export function earnPoints_Number(result, answers, point){
 }
 
 export function flagResult(totalPoints, earnPoints){
-    return (totalPoints * 50 / 100) < earnPoints; /** earn 50% marks */
+    return (totalPoints * 79 / 100) < earnPoints; /** earn 80% marks */
 }

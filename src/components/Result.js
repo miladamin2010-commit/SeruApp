@@ -36,10 +36,6 @@ export default function Result() {
 
         <div className='result flex-center'>
             <div className='flex'>
-                <span>Username</span>
-                <span className='bold'>Daily Tuition</span>
-            </div>
-            <div className='flex'>
                 <span>Total Quiz Points : </span>
                 <span className='bold'>{totalPoints || 0}</span>
             </div>

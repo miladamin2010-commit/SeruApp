@@ -102,4 +102,4 @@ export default [
 
 ];
 
-export const answers = [4, 3, 3, 2, 4, 3, 4, 4, 2, 3 ];
+export const answers = [3, 2, 2, 1, 3, 2, 3, 3, 1, 2];

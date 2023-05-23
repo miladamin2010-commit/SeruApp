@@ -24,3 +24,6 @@ export default function ResultTable() {
     </div>
   )
 }
+
+
+export const answers = [3, 2, 2, 1, 3, 2, 3, 3, 1, 2];
