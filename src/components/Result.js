@@ -64,11 +64,6 @@ export default function Result() {
         <div className="start">
             <Link className='btn' to={'/'} onClick={onRestart}>Restart</Link>
         </div>
-
-        <div className="container">
-            {/* result table */}
-            <ResultTable></ResultTable>
-        </div>
     </div>
   )
 }
